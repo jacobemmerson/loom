@@ -1,7 +1,7 @@
 # concurrency
 
 Initial:
-1. Review thread, mutex, lock_guard, unique_lock - write a simple bank account with concurrent transfers
+1. Review thread, mutex, lock_guard, unique_lock - write a simple bank account with concurrent transfers - Done
 2. condition_variable - implement a semaphore from scratch
 3. atomic<int> implement a spinlock and ticket lock
 4. message-passing example to understand `acquire/release` vs seq_cst
