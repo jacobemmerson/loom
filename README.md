@@ -10,7 +10,8 @@ Initial:
 thread-safe logger before starting the data structures.
 
 TODO:
-1. Blocking Bounded Buffer
+0. Review - Done
+1. Blocking Bounded Buffer - Done
 2. SPSC Queue
 3. SPMC Queue
 4. Thread Pool
