@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/taesur/projects/concurrency/spsc-queue/build/cmake_install.cmake",
+		"/home/taesur/projects/concurrency/spsc-queue/build/_deps/nanobench-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
