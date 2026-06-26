@@ -4,7 +4,7 @@
 #include <vector>
 #include <string>
 
-// compile with g++ -std=c++20 -pthread main.cpp buffer.cpp -o buffer && ./buffer
+// compile with g++ -std=c++20 -pthread main.cpp buffer.cpp -o buffer
 
 static std::mutex print_mtx;
 
@@ -30,9 +30,9 @@ void consumer(Buffer& buf, int id, int num_items) {
 
 int main() {
     const int BUFFER_CAP = 3;   // small buffer to make blocking visible
-    const int NUM_PRODUCERS = 2;
-    const int NUM_CONSUMERS = 2;
-    const int ITEMS_PER_THREAD = 4;
+    const int NUM_PRODUCERS = 6;
+    const int NUM_CONSUMERS = 6;
+    const int ITEMS_PER_THREAD = 3;
 
     Buffer buf(BUFFER_CAP);
 
